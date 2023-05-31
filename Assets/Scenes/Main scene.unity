@@ -1219,7 +1219,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &347333919
 PrefabInstance:
@@ -1738,7 +1738,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &525268355 stripped
 GameObject:
@@ -4886,7 +4886,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1513619197
 PrefabInstance:
@@ -4903,7 +4903,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
@@ -6014,7 +6014,7 @@ PrefabInstance:
     - target: {fileID: 7225362262138510385, guid: 16cfe0f76e1afc24ca16a7080d66f082,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7225362262138510385, guid: 16cfe0f76e1afc24ca16a7080d66f082,
         type: 3}
@@ -12600,6 +12600,7 @@ GameObject:
   - component: {fileID: 4769135586045393154}
   - component: {fileID: 4960308810059099196}
   - component: {fileID: 1531401169925552651}
+  - component: {fileID: 4960308810059099197}
   m_Layer: 0
   m_Name: Muro di base Vetro giardino interno [277339]
   m_TagString: Untagged
@@ -12705,7 +12706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8897080655036705321}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.02, y: 0, z: 0}
   m_LocalScale: {x: 12, y: 12, z: 12}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13794,6 +13795,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4134243438927732439}
+  m_Mesh: {fileID: 7961165445639560842, guid: 1ffe56dd9abc4a54db36221276e81000, type: 3}
+--- !u!64 &4960308810059099197
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4134243438927732439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7961165445639560842, guid: 1ffe56dd9abc4a54db36221276e81000, type: 3}
 --- !u!4 &4961373451554533537
 Transform:
@@ -16303,6 +16318,7 @@ GameObject:
   - component: {fileID: 8419875342796415765}
   - component: {fileID: 5877345790695647214}
   - component: {fileID: 8698585713028198926}
+  - component: {fileID: 8698585713028198927}
   m_Layer: 0
   m_Name: Muro di base Divisione interna [300513]
   m_TagString: Untagged
@@ -16927,6 +16943,7 @@ GameObject:
   - component: {fileID: 1115521327135308876}
   - component: {fileID: 1504004353823062297}
   - component: {fileID: 5871879667451785057}
+  - component: {fileID: 6694219315974253990}
   m_Layer: 0
   m_Name: Tetto di base copertutra interna bianca [276566]
   m_TagString: Untagged
@@ -16934,6 +16951,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6694219315974253990
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6694219315974253989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9160007822799353299, guid: 1ffe56dd9abc4a54db36221276e81000, type: 3}
 --- !u!4 &6719820081274811559
 Transform:
   m_ObjectHideFlags: 0
@@ -18054,6 +18085,7 @@ GameObject:
   - component: {fileID: 7151619353464265676}
   - component: {fileID: 15623099192511972}
   - component: {fileID: 3606453051361881054}
+  - component: {fileID: 7319001208977215665}
   m_Layer: 0
   m_Name: Muro di base Vetro giardino interno [277335]
   m_TagString: Untagged
@@ -18061,6 +18093,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7319001208977215665
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7319001208977215664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -215865953822967533, guid: 1ffe56dd9abc4a54db36221276e81000, type: 3}
 --- !u!33 &7326239923529932340
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -20354,6 +20400,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8698585713028198927
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255062360623467366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3089280231557890565, guid: 1ffe56dd9abc4a54db36221276e81000, type: 3}
 --- !u!1 &8710972313289558283
 GameObject:
   m_ObjectHideFlags: 0
